@@ -11,4 +11,8 @@ class GuestController extends Controller
     public function TentangKami(){
         return view('tentang');
     }
+
+    public function faq(){
+        return view('faq');
+    }
 }
