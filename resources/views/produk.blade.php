@@ -1,7 +1,6 @@
 @extends('main')
 
 @section('content')
-
 <div class="relative w-full h-screen">
     <!-- Gambar -->
     <img src="{{ asset('img/CandiPrambanan.jpg') }}" alt="West Papua" class="w-full h-full object-cover">
