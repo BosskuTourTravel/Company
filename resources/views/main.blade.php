@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-security-policy" content="upgrade-insecure-requests">
 
-    <link rel="icon" type="image/png" sizes="64x64" href="{{ asset('img/Icon.png') }}">
+    <link rel="icon" type="image/png" sizes="64x64" href="{{ asset('img/logo.png') }}">
 
     <title>Bossku Tour & Travel</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -28,9 +30,13 @@
     @include('Layouts.footer')
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="{{ asset('./js/swiper.js')}}"></script>
+    <!-- <script src="{{ asset('./js/swiper.js')}}"></script> -->
     <script src="{{ asset('./js/swiperHome.js')}}"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     @vite('resources/js/app.js')
 </body>
 

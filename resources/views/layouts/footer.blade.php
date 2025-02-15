@@ -1,27 +1,30 @@
-<footer class="bg-[#121820] text-white py-6 px-6">
-    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
+<footer class="bg-[#121820] text-white py-8 px-6">
+    <div class="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
         <!-- Logo & Lokasi -->
         <div>
-            <img src="{{ asset('img/LogoWeb.png') }}" alt="Logo" class="h-10">
-            <p class="mt-2 text-sm">Surabaya, Jawa Timur</p>
+            <img src="{{ asset('img/LogoWeb.png') }}" alt="Logo" class="h-12">
+            <p class="mt-3 text-sm text-gray-300">Jl. Mulyosari Baru No. 42 - 44, Kav 89, Surabaya, Jawa Timur</p>
         </div>
 
         <!-- Produk Kami -->
         <div>
-            <h3 class="font-semibold mb-2">Produk Kami</h3>
-            <ul class="space-y-0.5 text-sm">
+            <h3 class="text-lg font-semibold mb-3">Produk Kami</h3>
+            <ul class="space-y-1 text-sm text-gray-300">
+                <li><a href="#" class="hover:text-gray-400">Paket Tour Domestik & Internasional</a></li>
+                <li><a href="#" class="hover:text-gray-400">Land Tour</a></li>
+                <li><a href="#" class="hover:text-gray-400">Cruise Tour</a></li>
+                <li><a href="#" class="hover:text-gray-400">Hotel</a></li>
                 <li><a href="#" class="hover:text-gray-400">Tiket Pesawat</a></li>
-                <li><a href="#" class="hover:text-gray-400">Sewa Hiace</a></li>
-                <li><a href="#" class="hover:text-gray-400">Paket Tour</a></li>
+                <li><a href="#" class="hover:text-gray-400">Rental Mobil</a></li>
                 <li><a href="#" class="hover:text-gray-400">Passport</a></li>
-                <li><a href="#" class="hover:text-gray-400">Cruise</a></li>
+                <li><a href="#" class="hover:text-gray-400">Visa</a></li>
             </ul>
         </div>
 
         <!-- Tentang Kami -->
         <div>
-            <h3 class="font-semibold mb-2">Tentang Kami</h3>
-            <ul class="space-y-0.5 text-sm">
+            <h3 class="text-lg font-semibold mb-3">Tentang Kami</h3>
+            <ul class="space-y-1 text-sm text-gray-300">
                 <li><a href="#" class="hover:text-gray-400">Profil Perusahaan</a></li>
                 <li><a href="#" class="hover:text-gray-400">Hubungi Kami</a></li>
                 <li><a href="#" class="hover:text-gray-400">Karir</a></li>
@@ -34,7 +37,7 @@
         <div>
             <h3 class="font-semibold mb-2">Follow Us</h3>
             <div class="flex space-x-3">
-                <a href="#" class="hover:text-gray-400">
+                <a href="https://www.instagram.com/bosskutourtravel/" class="hover:text-gray-400">
                     <svg class="w-5 h-5" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="1.056"></g>
@@ -68,8 +71,8 @@
         </div>
     </div>
 
-    <!-- Copyright-->
-    <div class="container mx-auto mt-4 border-t border-gray-600 pt-3 flex justify-between items-center text-sm">
-        <p>&copy; 2025 Bossku Tour & Travel. All rights reserved.</p>
+    <!-- Copyright -->
+    <div class="mt-6 text-center text-sm text-gray-400 border-t border-gray-700 pt-4 pb-10 md:pb-0">
+        © 2025 Tour & Travel. All Rights Reserved.
     </div>
 </footer>
