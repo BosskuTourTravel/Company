@@ -31,7 +31,6 @@
                 Daftar
             </a>
         </div>
-
     </div>
 </nav>
 

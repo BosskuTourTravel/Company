@@ -3,17 +3,17 @@
 @section('content')
 
 <div class="relative w-full h-screen">
-    <!-- Gambar -->
-    <img src="{{ asset('img/Kintamani.jpg') }}" alt="West Papua" class="w-full h-full object-cover">
+  <!-- Gambar -->
+  <img src="{{ asset('img/Kintamani.jpg') }}" alt="West Papua" class="w-full h-full object-cover">
 
-    <!-- Overlay Gelap -->
-    <div class="absolute inset-0 bg-black/70"></div>
+  <!-- Overlay Gelap -->
+  <div class="absolute inset-0 bg-black/70"></div>
 
-    <!-- Teks di Atas Gambar -->
-    <div class="absolute inset-0 flex flex-col justify-center text-[#FFCA10] text-left px-5 shadow-xl" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" data-aos-duration="1000">
-        <h1 class="text-6xl font-bold">Bossku Tour & Travel</h1>
-        <p class="line-clamp-3 text-lg">Liburan Seru, Tanpa Ribet!</p>
-    </div>
+  <!-- Teks di Atas Gambar -->
+  <div class="absolute inset-0 flex flex-col justify-center text-[#FFCA10] text-left px-5 shadow-xl" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" data-aos-duration="1000">
+    <h1 class="text-6xl font-bold">Bossku Tour & Travel</h1>
+    <p class="line-clamp-3 text-lg">Liburan Seru, Tanpa Ribet!</p>
+  </div>
 </div>
 
 <!-- Icon Button -->
@@ -26,7 +26,7 @@
     <!-- Button Paket Tour -->
     <div class="flex flex-col items-center space-y-3">
       <a href="Paket_Tour" class="bg-[#FFCA10] text-[#02335B] font-bold p-3 md:p-4 rounded-xl hover:bg-white hover:text-[#02335B] transition duration-300 text-sm md:text-base flex items-center justify-center w-12 h-12 md:w-16 md:h-16">
-      <svg class="w-24 h-24" width="100%" height="100%" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000" stroke="#000000" stroke-width="2.56">
+        <svg class="w-24 h-24" width="100%" height="100%" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000" stroke="#000000" stroke-width="2.56">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
@@ -49,7 +49,7 @@
     <!-- Button Icon Cruise -->
     <div class="flex flex-col items-center space-y-3">
       <a href="#" class="bg-[#FFCA10] text-[#02335B] font-bold p-3 md:p-4 rounded-xl hover:bg-white hover:text-[#02335B] transition duration-300 text-sm md:text-base flex items-center justify-center w-12 h-12 md:w-16 md:h-16">
-      <svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="si-glyph si-glyph-cruise" fill="#000000">
+        <svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="si-glyph si-glyph-cruise" fill="#000000">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
@@ -70,7 +70,7 @@
     <!-- Button Icon Land Tour -->
     <div class="flex flex-col items-center space-y-3">
       <a href="#" class="bg-[#FFCA10] text-[#02335B] font-bold p-3 md:p-4 rounded-xl hover:bg-white hover:text-[#02335B] transition duration-300 text-sm md:text-base flex items-center justify-center w-12 h-12 md:w-16 md:h-16">
-      <svg height="200px" width="200px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#02335B">
+        <svg height="200px" width="200px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#02335B">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
@@ -92,7 +92,7 @@
     <!-- Button Icon Hotel  -->
     <div class="flex flex-col items-center space-y-3">
       <a href="#" class="bg-[#FFCA10] text-[#02335B] font-bold p-3 md:p-4 rounded-xl hover:bg-white hover:text-[#02335B] transition duration-300 text-sm md:text-base flex items-center justify-center w-12 h-12 md:w-16 md:h-16">
-      <svg viewBox="-5 -5 60.00 60.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg viewBox="-5 -5 60.00 60.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
@@ -106,7 +106,7 @@
     <!-- Icon Tiket Pesawat -->
     <div class="flex flex-col items-center space-y-3">
       <a href="#" class="bg-[#FFCA10] text-[#02335B] font-bold p-3 md:p-4 rounded-xl hover:bg-white hover:text-[#02335B] transition duration-300 text-sm md:text-base flex items-center justify-center w-12 h-12 md:w-16 md:h-16">
-      <svg class="w-3xs h-3xs" fill="#000000" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 122.88 122.88" xml:space="preserve">
+        <svg class="w-3xs h-3xs" fill="#000000" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 122.88 122.88" xml:space="preserve">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
@@ -128,7 +128,7 @@
     <!-- Icon Sewa Hiace -->
     <div class="flex flex-col items-center space-y-3">
       <a href="#" class="bg-[#FFCA10] text-[#02335B] font-bold p-3 md:p-4 rounded-xl hover:bg-white hover:text-[#02335B] transition duration-300 text-sm md:text-base flex items-center justify-center w-12 h-12 md:w-16 md:h-16">
-      <svg class="w-3xs h-3xs" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class="w-3xs h-3xs" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
@@ -142,7 +142,7 @@
     <!-- Button Icon Passport -->
     <div class="flex flex-col items-center space-y-3">
       <a href="#" class="bg-[#FFCA10] text-[#02335B] font-bold p-3 md:p-4 rounded-xl hover:bg-white hover:text-[#02335B] transition duration-300 text-sm md:text-base flex items-center justify-center w-12 h-12 md:w-16 md:h-16">
-      <svg height="200px" width="200px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
+        <svg height="200px" width="200px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
@@ -181,7 +181,7 @@
     <!-- Button Icon Visa -->
     <div class="flex flex-col items-center space-y-3">
       <a href="#" class="bg-[#FFCA10] text-[#02335B] font-bold p-3 md:p-4 rounded-xl hover:bg-white hover:text-[#02335B] transition duration-300 text-sm md:text-base flex items-center justify-center w-12 h-12 md:w-16 md:h-16">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
@@ -203,12 +203,12 @@
   <!-- Judul -->
   <div class="flex justify-between items-center mb-5">
     <h1 class="font-bold text-2xl">Paket Tour Buat Kamu!</h1>
-    <a href="Paket_Tour" class="text-sm font-bold text-[#02335B] hover:text-[#FFCA10]">Lihat Lainnya ></a>
+    <a href="#" class="text-sm font-bold text-[#02335B] hover:text-[#FFCA10]">Lihat Lainnya ></a>
   </div>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
     <!-- Card 1 -->
-    <a href="#" class="group block bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-xl transition-transform transform hover:scale-105 duration-300">
+    <a href="Detail-Produk" class="group block bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-xl transition-transform transform hover:scale-105 duration-300">
       <img src="{{ asset('img/Bali.jpg') }}" alt="Tour Image" class="w-full h-40 object-cover">
       <div class="p-5">
         <h3 class="text-lg font-bold text-[#02335B]">Explore Bali 6 Day</h3>
@@ -423,4 +423,5 @@
     </div>
   </div>
 </div>
+
 @endsection

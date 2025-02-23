@@ -10,7 +10,7 @@ class ProdukController extends Controller
         return view('produk');
     }
 
-    public function PaketTour(){
-        return view('Paket.pakettour');
+    public function Detail(){
+        return view('produk.detailproduk');
     }
 }
